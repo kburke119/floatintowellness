@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef } from "react";
-import Footer from "../components/footer";
 import { Button } from "../components/ui/button";
 import { CheckCircle2 } from "lucide-react";
 import floatLogo from "../assets/float-into-wellness-logo.jpg";
@@ -280,7 +279,15 @@ export default function FloatIntoWellness() {
         </div>
       </section>
 
-      <Footer />
+      <footer className="bg-gray-800 text-white py-12">
+  <div className="max-w-7xl mx-auto px-4 text-center">
+    <h3 className="text-2xl font-bold mb-4">Float Into Wellness</h3>
+    <p className="text-gray-300 mb-6">Recovery for body and mind</p>
+    <p className="text-gray-400 text-sm">
+      © 2026 Float Into Wellness. All rights reserved.
+    </p>
+  </div>
+</footer>
     </div>
   );
 }
