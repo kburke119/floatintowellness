@@ -1,0 +1,6 @@
+# Float Into Wellness - robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.floatintowellness.com/sitemap.xml
