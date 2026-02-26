@@ -6,3 +6,12 @@
   from = "/*"
   to = "/index.html"
   status = 200
+
+[[redirects]]
+  from = "https://floatintowellness.com/*"
+  to = "https://www.floatintowellness.com/:splat"
+  status = 301
+  force = true
+
+[build.environment]
+  NODE_VERSION = "18"
